@@ -11,18 +11,27 @@ var array=[{name:"krishna",pwd:"Krish"},{name:"abc",pwd:"123"},{name:"guna",pwd:
 	
 	
 	var count=0;
-	// array.forEach(function(ch){
-	for(i=0;i<array.length;i++){
-		// if(uname==ch.name && upwd==ch.pwd){
-		if(uname==array[i].name && upwd==array[i].pwd){
+	//method 1
+	// for(i=0;i<array.length;i++){
+		// if(uname==array[i].name && upwd==array[i].pwd){
+			// alert("success")
+			// count++
+		// }
+	// }
+	// if(count==0){
+		// alert("invalid user")
+	// }
+	
+	//method 2
+	array.forEach(function(ch){
+	if(uname==ch.name && upwd==ch.pwd){
 			alert("success")
 			count++
 		}
-	// })
-	}
+	})
 	if(count==0){
 		alert("invalid user")
 	}
- 
+	
  })
  
