@@ -1,0 +1,23 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+} 
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Bebas Neue', sans-serif;
+}
+.form-inp input[type="text"],.form-inp input[type="password"]{
+	border-radius:06px;
+	border:1px solid #8080801a;
+}
+.form-inp input[type="text"]:focus,.form-inp input[type="password"]:focus{
+	border-color:#0000f6a3 !important;
+	outline:0;
+}
+.a-hvr{
+	border-bottom:1px solid #80808054;
+	padding-bottom:20px;
+}
+.a-hvr:hover,.create-hvr:hover{
+	text-decoration:underline !important;
+}
